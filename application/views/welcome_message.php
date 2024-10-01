@@ -10,5 +10,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 	<h1>SMP NEGERI 1 SUWAWA</h1>
 
+	<h1>rifki ganteng</h1>
+
 </body>
 </html>
