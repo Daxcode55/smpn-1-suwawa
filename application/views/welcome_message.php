@@ -8,7 +8,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </head>
 <body>
 
-	<h1>Rifki ganteng</h1>
+	<h1>SMP NEGERI 1 SUWAWA</h1>
 
 </body>
 </html>
