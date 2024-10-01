@@ -12,5 +12,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 	<h1>rifki ganteng</h1>
 
+	<h1>irgi </h1>
+
 </body>
 </html>
