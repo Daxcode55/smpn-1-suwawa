@@ -2,7 +2,13 @@
 module.exports = {
   content: ['./application/views/public/**/*.php'],
   theme: {
-    extend: {},
+    extend: {
+      colors : {
+        primary: '#528EA4',
+        secColor: '#ADCEDE',
+        bgColor: '#fff',
+      }
+    },
   },
   plugins: [],
 }
