@@ -13,10 +13,10 @@
 
   <!-- header start -->
   <header class="relative">
-    <div>
-      <div class="flex justify-between items-center p-3 logo">
-        <img class="w-1/3 sm:w-2/5 lg:max-w-full" src="<?= base_url() . 'assets/img/logo.png' ?>" alt="">
-        <div>
+    <div class="lg:flex justify-between lg:items-center container-navtop">
+      <div class="flex justify-between items-center p-3 lg:block logo">
+        <img class="w-1/3 sm:w-2/12 lg:w-4/5" src="<?= base_url() . 'assets/img/logo.png' ?>" alt="">
+        <div class="lg:hidden">
           <svg id="hamburgerMenu" class="text-3xl lg:hidden" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
             viewBox="0 0 24 24">
             <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -24,18 +24,18 @@
           </svg>
         </div>
       </div>
-      <div class="hidden">
-        <div>
-          <img src="<?= base_url() . 'assets/img/icons/telepon.svg' ?>" alt="logo email">
+      <div class="hidden lg:flex">
+        <div class="flex items-center h-max pr-8 border-r border-primary cursor-pointer">
+          <img class="w-11 mr-3" src="<?= base_url() . 'assets/img/icons/telepon.svg' ?>" alt="logo email">
           <div>
             <p class="text-primary">Telepon</p>
             <p>085212345678</p>
           </div>
         </div>
-        <div>
-          <img src="<?= base_url() . 'assets/img/icons/email.svg' ?>" alt="logo email">
+        <div class="flex items-center h-max pl-8 cursor-pointer">
+          <img class="w-11 mr-3" src="<?= base_url() . 'assets/img/icons/email.svg' ?>" alt="logo email">
           <div>
-            <p>Email</p>
+            <p class="text-primary">Email</p>
             <p>smpn1suwawa18@gmail.com</p>
           </div>
         </div>
@@ -52,8 +52,8 @@
                 d="m6 9l6 6l6-6" />
             </svg>
           </div>
-          <div class="hidden pl-4 flex flex-col dropdown-link">
-            <a href="https://www.w3schools.com/css/css_dropdowns.asp">Sambutan Kepala Sekolah</a>
+          <div class="hidden pl-4 pb-4 flex flex-col dropdown-link">
+            <a href="#">Sambutan Kepala Sekolah</a>
             <a href="#">Visi dan Misi</a>
             <a href="#">Struktur Organisasi</a>
             <a href="#">Civitas Akademik</a>

@@ -6,12 +6,11 @@ body {
 }
 
 .logo {
-    border:1px solid #E0E2E9;
+    border-bottom:1px solid  #E0E2E9;
 }
 
 .navbar {
     left: -75%;
-    /* z-index:1; */
     transition: 0.5s;
 }
 
@@ -24,6 +23,7 @@ body {
     padding: 0.7rem 0;
     font-weight:bold;
     color: #0C140C;
+    font-size: 0.9rem
 }
 
 /* .dropdown-link li {
@@ -32,7 +32,26 @@ body {
 
 .dropdown-link a {
     font-size: 0.9rem;
-    padding-top: 2rem;
+    padding-top: 1.5rem;
     color: #7A7A7A;
     display: block;
+}
+
+
+@media only screen and (min-width: 1024px) {
+    .container-navtop {
+        border-bottom: 1px solid #E0E2E9;
+        padding: 1.5rem 4rem;
+    }
+
+    .logo {
+        border-bottom:none;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .container-navtop {
+        border-bottom: 1px solid #E0E2E9;
+        padding: 1.5rem 8rem;
+    }
 }
