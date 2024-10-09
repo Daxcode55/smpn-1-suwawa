@@ -1,14 +1,14 @@
 // console.log("rifki")
 
-document.querySelector("#dropdown").addEventListener("click", () => {
-    let dropdownLink = document.querySelector(".dropdown-link");
+const dropdown = document.querySelector("#dropdown");
+const dropdownLink = document.querySelector(".dropdown-link");
 
-    if(dropdownLink.style.display === "block") {
-        dropdownLink.style.display = "none";
-    } else {
-        dropdownLink.style.display = "block"
-    }
-})
+dropdown.addEventListener("click", () => {
+  if (window.innerWidth < 1024) {
+    dropdownLink.classList.toggle("hidden");
+    dropdownLink.classList.toggle("block");
+  }
+});
 
 
 document.querySelector('#hamburgerMenu').addEventListener("click", () => {
