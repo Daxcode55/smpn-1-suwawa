@@ -43,7 +43,7 @@
     </div>
 
     <nav
-      class="absolute top-0 w-3/4 h-screen bg-bgColor shadow-md pt-4 lg:pt-0 lg:pl-24 lg:static lg:w-full lg:h-auto navbar">
+      class="absolute top-full w-3/4 h-screen bg-bgColor shadow-md pt-4 lg:pt-0 lg:pl-24 lg:static lg:w-full lg:h-auto navbar">
       <ul class="lg:flex">
         <li class="li-links"><a class="block link" href="">Beranda</a></li>
         <li id="dropdown" class="lg:cursor-pointer lg:relative li-links">
@@ -74,8 +74,40 @@
     praesentium nisi earum deserunt rerum consectetur dolorum? Illum debitis molestiae culpa quaerat illo quis.
   </div>
 
+  <div class="contoh">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ut facilis sint, ipsum, maiores animi placeat
+    praesentium nisi earum deserunt rerum consectetur dolorum? Illum debitis molestiae culpa quaerat illo quis.
+  </div>
 
+  <div class="contoh">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ut facilis sint, ipsum, maiores animi placeat
+    praesentium nisi earum deserunt rerum consectetur dolorum? Illum debitis molestiae culpa quaerat illo quis.
+  </div>
 
+  <div class="contoh">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ut facilis sint, ipsum, maiores animi placeat
+    praesentium nisi earum deserunt rerum consectetur dolorum? Illum debitis molestiae culpa quaerat illo quis.
+  </div>
+
+  <div class="contoh">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ut facilis sint, ipsum, maiores animi placeat
+    praesentium nisi earum deserunt rerum consectetur dolorum? Illum debitis molestiae culpa quaerat illo quis.
+  </div>
+
+  <div class="contoh">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ut facilis sint, ipsum, maiores animi placeat
+    praesentium nisi earum deserunt rerum consectetur dolorum? Illum debitis molestiae culpa quaerat illo quis.
+  </div>
+
+  <div class="contoh">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ut facilis sint, ipsum, maiores animi placeat
+    praesentium nisi earum deserunt rerum consectetur dolorum? Illum debitis molestiae culpa quaerat illo quis.
+  </div>
+
+  <div class="contoh">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ut facilis sint, ipsum, maiores animi placeat
+    praesentium nisi earum deserunt rerum consectetur dolorum? Illum debitis molestiae culpa quaerat illo quis.
+  </div>
   <script src="<?php echo base_url() . 'src/script/script.js' ?>"></script>
 </body>
 

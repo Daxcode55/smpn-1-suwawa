@@ -11,13 +11,8 @@ dropdown.addEventListener("click", () => {
 });
 
 
-document.querySelector('#hamburgerMenu').addEventListener("click", () => {
-    console.log("rifki")
-    let nav = document.querySelector(".navbar");
-
-    if (nav.style.left === "0%") {
-        nav.style.left = "-75%";
-    } else {
-        nav.style.left = "0%";
-    }
-})
+let hamburger = document.querySelector('#hamburgerMenu');
+let navbar = document.querySelector(".navbar");
+hamburger.onclick = () => {
+  navbar.classList.toggle("active");
+}
