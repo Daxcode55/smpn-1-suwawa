@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="<?php echo base_url() . 'src/output.css' ?>">
   <link rel="stylesheet" type="text/css" href="<?php echo base_url() . 'src/style.css' ?>">
-  <title>Document</title>
+  <title>SMPN 1 Suwawa</title>
 </head>
 
 <body>
@@ -42,21 +42,22 @@
       </div>
     </div>
 
-    <nav class="absolute top-0 w-3/4 h-screen bg-bgColor shadow-md pt-4 navbar">
-      <ul>
+    <nav
+      class="absolute top-0 w-3/4 h-screen bg-bgColor shadow-md pt-4 lg:pt-0 lg:pl-24 lg:static lg:w-full lg:h-auto navbar">
+      <ul class="lg:flex">
         <li class="li-links"><a class="block link" href="">Beranda</a></li>
-        <li id="dropdown" class="li-links">
-          <div class="flex items-center justify-between link">Profil Sekolah
+        <li id="dropdown" class="lg:cursor-pointer lg:relative li-links">
+          <div class="flex items-center justify-between link lg:justify-normal">Profil Sekolah
             <svg class="text-lg" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
               <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
                 d="m6 9l6 6l6-6" />
             </svg>
           </div>
-          <div class="hidden pl-4 pb-4 flex flex-col dropdown-link">
+          <div class="hidden pl-4 pb-4 flex flex-col lg:absolute lg:pl-0 lg:w-72 lg:block dropdown-link">
             <a href="#">Sambutan Kepala Sekolah</a>
             <a href="#">Visi dan Misi</a>
             <a href="#">Struktur Organisasi</a>
-            <a href="#">Civitas Akademik</a>
+            <a class="borderNon" href="#">Civitas Akademik</a>
           </div>
         </li>
 
@@ -68,6 +69,10 @@
   </header>
   <!-- header end -->
 
+  <div class="contoh">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ut facilis sint, ipsum, maiores animi placeat
+    praesentium nisi earum deserunt rerum consectetur dolorum? Illum debitis molestiae culpa quaerat illo quis.
+  </div>
 
 
 
