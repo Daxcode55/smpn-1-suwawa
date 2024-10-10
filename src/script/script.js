@@ -16,3 +16,23 @@ let navbar = document.querySelector(".navbar");
 hamburger.onclick = () => {
   navbar.classList.toggle("active");
 }
+
+let containerSliders = document.querySelector(".slideShow");
+
+window.onscroll = () => {
+  if (window.innerWidth > 1024) {
+    if (window.pageYOffset >= 149) {
+      if (!navbar.classList.contains("navsticky")) {
+        navbar.classList.add("navsticky");
+        containerSliders.style.marginTop = "4rem";
+      }
+    } else {
+      if (navbar.classList.contains("navsticky")) {
+        navbar.classList.remove("navsticky");
+        containerSliders.style.marginTop = "0";
+      }
+    }
+  }
+};
+
+

@@ -12,7 +12,6 @@ body {
 .navbar {
     left: -75%;
     transition: 0.5s;
-    border:1px solid red;
 }
 
 .navbar.active {
@@ -38,11 +37,6 @@ body {
     display: block;
 }
 
-.contoh {
-
-}
-
-
 @media only screen and (min-width: 1024px) {
     .container-navtop {
         border-bottom: 1px solid #E0E2E9;
@@ -52,6 +46,25 @@ body {
     .logo {
         border-bottom:none;
     }
+    
+    .navbar {
+        position: relative;
+        width:100%;
+        top: 0;
+        left:0;
+        transition: all 0.3s ease;
+    }
+
+    .navbar.navsticky {
+        position:fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        /* bottom: 0;
+        height: 92.7969px; */
+        width: 100%;
+        z-index: 99999;
+    }
 
     .link {
         border-bottom: none;
@@ -60,7 +73,6 @@ body {
         color: #7A7A7A;
         font-size: 1rem;
         transition: 0.3s ease-out;
-        /* border:1px solid red; */
     }
 
     .link:hover {
@@ -81,7 +93,6 @@ body {
     }
 
     #dropdown:hover .dropdown-link {
-        /* display: block; */
         transform:scale(1);
     }
 

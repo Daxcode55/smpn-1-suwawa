@@ -12,7 +12,7 @@
 <body>
 
   <!-- header start -->
-  <header class="relative">
+  <header class="fixed top-0 left-0 right-0 bg-bgColor lg:relative">
     <div class="lg:flex justify-between lg:items-center container-navtop">
       <div class="flex justify-between items-center p-3 lg:block logo">
         <img class="w-1/3 sm:w-2/12 lg:w-4/5" src="<?= base_url() . 'assets/img/logo.png' ?>" alt="">
@@ -42,8 +42,7 @@
       </div>
     </div>
 
-    <nav
-      class="absolute top-full w-3/4 h-screen bg-bgColor shadow-md pt-4 lg:pt-0 lg:pl-24 lg:static lg:w-full lg:h-auto navbar">
+    <nav class="absolute top-full w-3/4 h-screen bg-bgColor shadow-md pt-4 lg:pt-0 lg:pl-24 lg:h-auto navbar">
       <ul class="lg:flex">
         <li class="li-links"><a class="block link" href="">Beranda</a></li>
         <li id="dropdown" class="lg:cursor-pointer lg:relative li-links">
@@ -69,46 +68,35 @@
   </header>
   <!-- header end -->
 
-  <div class="contoh">
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ut facilis sint, ipsum, maiores animi placeat
-    praesentium nisi earum deserunt rerum consectetur dolorum? Illum debitis molestiae culpa quaerat illo quis.
-  </div>
+  <section class="slideShow mt-16 lg:mt-0">
+    <div class="container-slideshow">
+      <div class="slideshow-item fade">
+        <img src="<?= base_url() . 'assets/img/gambar 1.jpg' ?>" alt="gambar 1" style="width: 100%" />
+      </div>
 
-  <div class="contoh">
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ut facilis sint, ipsum, maiores animi placeat
-    praesentium nisi earum deserunt rerum consectetur dolorum? Illum debitis molestiae culpa quaerat illo quis.
-  </div>
+      <div class="slideshow-item fade">
+        <img src="<?= base_url() . 'assets/img/gambar 2.jpg' ?>" alt="gambar 2" style="width: 100%" />
+      </div>
 
-  <div class="contoh">
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ut facilis sint, ipsum, maiores animi placeat
-    praesentium nisi earum deserunt rerum consectetur dolorum? Illum debitis molestiae culpa quaerat illo quis.
-  </div>
+      <div class="slideshow-item fade">
+        <img src="<?= base_url() . 'assets/img/gambar 3.jpg' ?>" alt="gambar 3" style="width: 100%" />
+      </div>
 
-  <div class="contoh">
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ut facilis sint, ipsum, maiores animi placeat
-    praesentium nisi earum deserunt rerum consectetur dolorum? Illum debitis molestiae culpa quaerat illo quis.
-  </div>
+      <a class="prev" onclick="plusSlides(-1)"> ❮ </a>
+      <a class="next" onclick="plusSlides(1)"> ❯ </a>
 
-  <div class="contoh">
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ut facilis sint, ipsum, maiores animi placeat
-    praesentium nisi earum deserunt rerum consectetur dolorum? Illum debitis molestiae culpa quaerat illo quis.
-  </div>
+      <div class="rangeTime"></div>
+    </div>
 
-  <div class="contoh">
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ut facilis sint, ipsum, maiores animi placeat
-    praesentium nisi earum deserunt rerum consectetur dolorum? Illum debitis molestiae culpa quaerat illo quis.
-  </div>
+    <div style="text-align: center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+  </section>
 
-  <div class="contoh">
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ut facilis sint, ipsum, maiores animi placeat
-    praesentium nisi earum deserunt rerum consectetur dolorum? Illum debitis molestiae culpa quaerat illo quis.
-  </div>
-
-  <div class="contoh">
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ut facilis sint, ipsum, maiores animi placeat
-    praesentium nisi earum deserunt rerum consectetur dolorum? Illum debitis molestiae culpa quaerat illo quis.
-  </div>
   <script src="<?php echo base_url() . 'src/script/script.js' ?>"></script>
+
 </body>
 
 </html>
