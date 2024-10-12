@@ -7,6 +7,10 @@ module.exports = {
         primary: '#528EA4',
         secColor: '#ADCEDE',
         bgColor: '#fff',
+      },
+
+      fontFamily : {
+        secFont : 'Protest Riot, sans-serif'
       }
     },
   },

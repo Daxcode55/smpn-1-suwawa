@@ -68,30 +68,47 @@
   </header>
   <!-- header end -->
 
-  <section class="slideShow mt-16 lg:mt-0">
-    <div class="container-slideshow">
-      <div class="slideshow-item fade">
+  <section class="slideShow pt-20 sm:pt-16 md:scroll-pt-0.5  lg:pt-0">
+    <div class="relative container-slideshow">
+      <div class="hidden slideshow-item fade">
         <img src="<?= base_url() . 'assets/img/gambar 1.jpg' ?>" alt="gambar 1" style="width: 100%" />
       </div>
 
-      <div class="slideshow-item fade">
+      <div class="hidden slideshow-item fade">
         <img src="<?= base_url() . 'assets/img/gambar 2.jpg' ?>" alt="gambar 2" style="width: 100%" />
       </div>
 
-      <div class="slideshow-item fade">
+      <div class="hidden slideshow-item fade">
         <img src="<?= base_url() . 'assets/img/gambar 3.jpg' ?>" alt="gambar 3" style="width: 100%" />
       </div>
 
-      <a class="prev" onclick="plusSlides(-1)"> ❮ </a>
-      <a class="next" onclick="plusSlides(1)"> ❯ </a>
+      <a class="absolute top-1/2 py-2 px-4 text-5xl left-7 prev" onclick="plusSlides(-1)"> ❮ </a>
+      <a class="absolute top-1/2 py-2 px-4 text-5xl right-7 next" onclick="plusSlides(1)"> ❯ </a>
 
       <div class="rangeTime"></div>
     </div>
 
-    <div style="text-align: center">
-      <span class="dot" onclick="currentSlide(1)"></span>
-      <span class="dot" onclick="currentSlide(2)"></span>
-      <span class="dot" onclick="currentSlide(3)"></span>
+    <div style="text-align: center" class="mt-3">
+      <span class="h-3 w-3 mx-1 inline-block cursor-pointer lg:h-4 lg:w-4 dot" onclick="currentSlide(1)"></span>
+      <span class="h-3 w-3 mx-1 inline-block cursor-pointer lg:h-4 lg:w-4 dot" onclick="currentSlide(2)"></span>
+      <span class="h-3 w-3 mx-1 inline-block cursor-pointer lg:h-4 lg:w-4 dot" onclick="currentSlide(3)"></span>
+    </div>
+  </section>
+
+
+  <section class="pt-8 lg:flex lg:px-32 lg:pt-14">
+    <div class="p-3 lg:w-1/2">
+      <h1 class="text-4xl font-bold font-secFont lg:text-6xl">SMP NEGERI 1<br><span class="inline-block text-primary mt-2 pb-2 border-b border-primary lg:pb-6">SUWAWA</span></h1>
+
+      <P class="mt-3 text-sm sm:w-3/4 lg:mt-6 lg:text-lg">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+        standard dummy text ever since the.</P>
+
+      <P class="mt-3 text-sm sm:w-3/4 lg:text-lg">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has.</P>
+      <button class="mt-4 bg-primary py-2 px-4 rounded-md text-bgColor cursor-pointer hover:bg-sky-700 ease-in-out duration-300">Selengkapnya</button>
+    </div>
+
+    <div class="p-3 lg:w-1/2">
+      <img class="rounded-md" src="<?= base_url() . 'assets/img/smp1.jpg' ?>" alt="siswa smp">
     </div>
   </section>
 
