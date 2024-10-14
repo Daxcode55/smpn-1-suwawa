@@ -97,7 +97,7 @@
 
   <section class="pt-8 lg:flex lg:px-32 lg:pt-14">
     <div class="p-3 lg:w-1/2">
-      <h1 class="text-4xl font-bold font-secFont lg:text-6xl">SMP NEGERI 1<br><span class="inline-block text-primary mt-2 pb-2 border-b border-primary lg:pb-6">SUWAWA</span></h1>
+      <h1 class="text-4xl font-bold font-secFont lg:text-6xl">SMP NEGERI 1<br><span class="inline-block text-primary mt-2 pb-2 border-b-2 border-primary lg:pb-6">SUWAWA</span></h1>
 
       <P class="mt-3 text-sm sm:w-3/4 lg:mt-6 lg:text-lg">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
         standard dummy text ever since the.</P>
@@ -113,13 +113,13 @@
 
   <section class="mt-16 px-4 lg:mt-32 unggulan">
       <div class="lg:flex lg:gap-14">
-        <h2 class="text-4xl font-bold w-52 lg:mb-16 lg:pl-16 lg:text-6xl">Program <span class="text-primary border-b border-primary pb-4 lg:border-none">Unggulan</span></h2>
-        <p class="w-2/4 mt-10 mb-6 text-base text-textColor lg:w-1/4">Didukung oleh guru yang kompeten pada bidangnya</p>
+        <h2 class="text-4xl font-bold w-52 lg:mb-16 lg:pl-16 lg:text-6xl">Program <span class="text-primary border-b-2 border-primary pb-4 lg:border-none">Unggulan</span></h2>
+        <p class="w-2/4 mt-10 mb-6 text-base text-textColor lg:text-xl lg:w-1/4">Didukung oleh guru yang kompeten pada bidangnya</p>
       </div>
       <div class="col-content">
         <div class="flex row-content-about">
-          <div class="border-r border-primary w-1/5 flex justify-center items-center relative col col-1">
-            <p class="inline-block text-sm font-bold bg-primary text-bgColor py-2 px-5 rounded-xl lg:text-4xl">1</p>
+          <div class="border-r-2 border-lineColor w-1/5 flex justify-center items-center relative col col-1">
+            <p class="inline-block text-sm font-bold bg-primary text-bgColor py-2 px-5 rounded-xl shadow-custom lg:text-4xl">1</p>
           </div>
 
           <div class="w-4/5 flex justify-center items-center gap-5 p-6 lg:p-16 col-desc-content">
@@ -135,8 +135,8 @@
         </div>
 
         <div class="flex row-content-about">
-          <div class="border-r border-primary w-1/5 flex justify-center items-center relative col col-1">
-            <p class="inline-block text-sm font-bold bg-primary text-bgColor py-2 px-5 rounded-xl lg:text-4xl">2</p>
+          <div class="border-r-2 border-lineColor w-1/5 flex justify-center items-center relative col col-1">
+            <p class="inline-block text-sm font-bold bg-primary text-bgColor py-2 px-5 rounded-xl shadow-custom lg:text-4xl">2</p>
           </div>
 
           <div class="w-4/5 flex justify-center items-center gap-5 p-6 lg:p-16 col-desc-content">
@@ -152,8 +152,8 @@
         </div>
 
         <div class="flex row-content-about">
-          <div class="border-r border-primary w-1/5 flex justify-center items-center relative col col-1">
-            <p class="inline-block text-sm font-bold bg-primary text-bgColor py-2 px-5 rounded-xl lg:text-4xl">3</p>
+          <div class="border-r-2 border-lineColor w-1/5 flex justify-center items-center relative col col-1">
+            <p class="inline-block text-sm font-bold bg-primary text-bgColor py-2 px-5 rounded-xl shadow-custom lg:text-4xl">3</p>
           </div>
 
           <div class="w-4/5 flex justify-center items-center gap-5 p-6 lg:p-16 col-desc-content">
@@ -171,43 +171,41 @@
     </section>
 
 
-    <section class="mt-16 px-4 lg:mt-32 fasilitas">
-      <div class="lg:flex lg:gap-14">
-        <h2 class="text-4xl font-bold w-52 lg:mb-16 lg:pl-16 lg:text-6xl">Fasilitas <span class="text-primary border-b border-primary pb-4 lg:border-none">Sekolah</span></h2>
-        <p class="w-2/4 mt-10 mb-6 text-base text-textColor lg:w-1/4">Fasilitas penunjang pembelajaran</p>
+    <section class="mt-16 px-4 pt-20 pb-12 lg:mt-32 bg-gradient-to-r from-cyan-500 to-primary rounded-t-3xl fasilitas">
+      <div class="flex items-center lg:gap-14">
+        <h2 class="text-4xl font-bold w-52 border-r-2 border-bgColor lg:border-none lg:mb-16 lg:pl-16 lg:text-6xl">Fasilitas <span class="text-bgColor pb-4">Sekolah</span></h2>
+        <p class="w-2/4 ml-7 lg:text-2xl text-bgColor lg:pb-12 lg:w-1/4">Fasilitas penunjang pembelajaran</p>
       </div>
 
-      <div class="flex flex-wrap gap-4 justify-center lg:gap-8">
+      <div class="flex flex-wrap gap-4 justify-center mt-12 lg:gap-8">
         <div class="w-44 lg:w-60 card">
-          <img class="w-full h-auto" src="<?= base_url() . 'assets/img/smp1.jpg' ?>" alt="Avatar" style="width: 100%" />
-          <div class="py-3 px-4 container">
+          <img class="w-full h-auto rounded-t-lg" src="<?= base_url() . 'assets/img/smp1.jpg' ?>" alt="Avatar" style="width: 100%" />
+          <div class="py-3 px-4 container bg-bgColor rounded-b-lg">
             <h4 class="text-base"><b>Lab Komputer</b></h4>
           </div>
         </div>
 
         <div class="w-44 lg:w-60 card">
-          <img class="w-full h-auto" src="<?= base_url() . 'assets/img/smp1.jpg' ?>" alt="Avatar" style="width: 100%" />
-          <div class="py-3 px-4 container">
-            <h4 class="text-base"><b>Komputer</b></h4>
+          <img class="w-full h-auto rounded-t-lg" src="<?= base_url() . 'assets/img/smp1.jpg' ?>" alt="Avatar" style="width: 100%" />
+          <div class="py-3 px-4 container bg-bgColor rounded-b-lg">
+            <h4 class="text-base"><b>Lab Komputer</b></h4>
           </div>
         </div>
 
         <div class="w-44 lg:w-60 card">
-          <img class="w-full h-auto" src="<?= base_url() . 'assets/img/smp1.jpg' ?>" alt="Avatar" style="width: 100%" />
-          <div class="py-3 px-4 container">
-            <h4 class="text-base"><b>Komputer</b></h4>
+          <img class="w-full h-auto rounded-t-lg" src="<?= base_url() . 'assets/img/smp1.jpg' ?>" alt="Avatar" style="width: 100%" />
+          <div class="py-3 px-4 container bg-bgColor rounded-b-lg">
+            <h4 class="text-base"><b>Lab Komputer</b></h4>
           </div>
         </div>
 
         <div class="w-44 lg:w-60 card">
-          <img class="w-full h-auto" src="<?= base_url() . 'assets/img/smp1.jpg' ?>" alt="Avatar" style="width: 100%" />
-          <div class="py-3 px-4 container">
-            <h4 class="text-base"><b>Komputer</b></h4>
+          <img class="w-full h-auto rounded-t-lg" src="<?= base_url() . 'assets/img/smp1.jpg' ?>" alt="Avatar" style="width: 100%" />
+          <div class="py-3 px-4 container bg-bgColor rounded-b-lg">
+            <h4 class="text-base"><b>Lab Komputer</b></h4>
           </div>
         </div>
       </div>
-
-      
     </section>
 
   <script src="<?php echo base_url() . 'src/script/script.js' ?>"></script>

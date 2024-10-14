@@ -231,13 +231,13 @@ header {
 	}
 
 	.unggulan h2 {
-		border-right: 1px solid #528ea4;
+		border-right: 2px solid #528ea4;
 		width: 40%;
 	}
 
 	.fasilitas h2 {
-		border-right: 1px solid #528ea4;
-		width: 40%;
+		border-right: 2px solid #fff;
+		width: 35%;
 	}
 
 	.col-content .row-content-about .col::after {
