@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap");
 
 body {
 	font-family: "Poppins", sans-serif;
@@ -64,50 +64,76 @@ header {
 
 .active,
 .dot:hover {
-  background-color: #717171;
+	background-color: #717171;
 }
 
 .fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
 }
 
 @keyframes fade {
-  from {
-    opacity: 0.4;
-  }
-  to {
-    opacity: 1;
-  }
+	from {
+		opacity: 0.4;
+	}
+	to {
+		opacity: 1;
+	}
 }
 
 .rangeTime {
-  height: 5px;
-  width: 1%;
-  background-color: rgba(120, 120, 120, 0.8);
-  position: absolute;
-  top: 0;
+	height: 5px;
+	width: 1%;
+	background-color: rgba(120, 120, 120, 0.8);
+	position: absolute;
+	top: 0;
 }
 
 .rangeTime.active {
-  animation: rangeBar 7s;
+	animation: rangeBar 7s;
 }
 
 @keyframes rangeBar {
-  from {
-    width: 1%;
-  }
-  to {
-    width: 100%;
-  }
+	from {
+		width: 1%;
+	}
+	to {
+		width: 100%;
+	}
 }
 
-.contoh {
-    padding-bottom: 1000px
+.col-content .row-content-about .col::after {
+	content: "";
+	display: block;
+	background-color: #528ea4;
+	width: 7px;
+	height: 50px;
+	right: -4px;
+	border-radius: 10px;
+	position: absolute;
+}
+
+.row-content-about .col-desc-content img {
+	width: 50%;
+	border-radius: 10px;
+}
+
+.col-desc-content .desc-img p {
+	width: 100%;
+	font-size: 0.6rem;
+}
+
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	transition: 0.3s;
+	cursor: pointer;
+}
+
+.card:hover {
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
 @media only screen and (min-width: 1024px) {
-	
 	header {
 		z-index: 9999;
 	}
@@ -195,15 +221,34 @@ header {
 		border-bottom: none;
 	}
 
-    .container-slideshow {
-        z-index: 999;
-    }
+	.container-slideshow {
+		z-index: 999;
+	}
 
 	.prev:hover,
 	.next:hover {
 		background-color: rgba(0, 0, 0, 0.8);
 	}
-    
+
+	.unggulan h2 {
+		border-right: 1px solid #528ea4;
+		width: 40%;
+	}
+
+	.fasilitas h2 {
+		border-right: 1px solid #528ea4;
+		width: 40%;
+	}
+
+	.col-content .row-content-about .col::after {
+		width: 16px;
+		height: 100px;
+		right: -8px;
+	}
+
+	.col-desc-content .desc-img p {
+		font-size: 1rem;
+	}
 }
 
 @media only screen and (min-width: 1280px) {
@@ -211,4 +256,13 @@ header {
 		border-bottom: 1px solid #e0e2e9;
 		padding: 1.5rem 8rem;
 	}
+
+	.unggulan h2 {
+		width: 30%;
+	}
+
+	.fasilitas h2 {
+		width: 30%;
+	}
+
 }

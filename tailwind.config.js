@@ -7,6 +7,7 @@ module.exports = {
         primary: '#528EA4',
         secColor: '#ADCEDE',
         bgColor: '#fff',
+        textColor: '#7a7a7a',
       },
 
       fontFamily : {
