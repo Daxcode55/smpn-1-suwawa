@@ -1,5 +1,3 @@
-// console.log("rifki")
-
 const dropdown = document.querySelector("#dropdown");
 const dropdownLink = document.querySelector(".dropdown-link");
 
@@ -79,4 +77,3 @@ function currentSlide(n) {
   slideIndex = n - 1;
   showSlides();
 }
-
