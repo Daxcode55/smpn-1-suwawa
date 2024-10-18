@@ -4,6 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" type="text/css" href="<?php echo base_url() . 'src/output.css' ?>">
   <link rel="stylesheet" type="text/css" href="<?php echo base_url() . 'src/styles/style.css' ?>">
   <title>SMPN 1 Suwawa</title>
@@ -184,7 +187,8 @@
   </section>
 
 
-  <section class="mt-16 px-4 pt-20 pb-12 lg:mt-32 bg-gradient-to-r from-cyan-500 to-primary rounded-t-3xl fasilitas">
+  <section
+    class="mt-16 px-4 pt-20 pb-12 lg:mt-32 bg-gradient-to-t from-transparentBg to-primary rounded-t-3xl fasilitas">
     <div class="flex items-center lg:gap-14">
       <h2 class="text-4xl font-bold w-52 border-r-2 border-bgColor lg:border-none lg:mb-16 lg:pl-16 lg:text-6xl">
         Fasilitas <span class="text-bgColor pb-4">Sekolah</span></h2>
@@ -228,16 +232,17 @@
 
 
   <section class="testimoni mt-20 mx-7 lg:pl-14 lg:mx-0">
-    <header class="flex flex-col justify-center items-center">
+    <div class="flex flex-col justify-center items-center">
       <p class="text-textColor lg:text-xl">Testimoni dan Harapan</p>
       <h2 class="text-3xl font-bold mt-2 text-primary lg:text-6xl">SMP Negeri 1 Suwawa</h2>
-    </header>
+    </div>
 
     <div class="container-cards-testimoni overflow-x-scroll snap-mandatory lg:mt-8">
       <div class="flex gap-6">
         <div class="min-w-80 mt-6 p-6 rounded-2xl shadow-2xl">
           <h2 class="text-primary font-semibold">content heading</h2>
-          <p class="mt-8 text-textColor">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto possimus nesciunt eos
+          <p class="mt-8 text-textColor">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto possimus
+            nesciunt eos
             voluptatibus omnis
             nihil temporibus reiciendis! Eos, neque necessitatibus.</p>
           <div class="flex gap-4 mt-6">
@@ -251,7 +256,8 @@
 
         <div class="min-w-80 mt-6 p-6 rounded-2xl shadow-2xl">
           <h2 class="text-primary font-semibold">content heading</h2>
-          <p class="mt-8 text-textColor">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto possimus nesciunt eos
+          <p class="mt-8 text-textColor">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto possimus
+            nesciunt eos
             voluptatibus omnis
             nihil temporibus reiciendis! Eos, neque necessitatibus.</p>
           <div class="flex gap-4 mt-6">
@@ -265,7 +271,8 @@
 
         <div class="min-w-80 mt-6 p-6 rounded-2xl shadow-2xl">
           <h2 class="text-primary font-semibold">content heading</h2>
-          <p class="mt-8 text-textColor">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto possimus nesciunt eos
+          <p class="mt-8 text-textColor">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto possimus
+            nesciunt eos
             voluptatibus omnis
             nihil temporibus reiciendis! Eos, neque necessitatibus.</p>
           <div class="flex gap-4 mt-6">
@@ -279,7 +286,8 @@
 
         <div class="min-w-80 mt-6 p-6 rounded-2xl shadow-2xl">
           <h2 class="text-primary font-semibold">content heading</h2>
-          <p class="mt-8 text-textColor">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto possimus nesciunt eos
+          <p class="mt-8 text-textColor">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto possimus
+            nesciunt eos
             voluptatibus omnis
             nihil temporibus reiciendis! Eos, neque necessitatibus.</p>
           <div class="flex gap-4 mt-6">
@@ -293,7 +301,8 @@
 
         <div class="min-w-80 mt-6 p-6 rounded-2xl shadow-2xl">
           <h2 class="text-primary font-semibold">content heading</h2>
-          <p class="mt-8 text-textColor">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto possimus nesciunt eos
+          <p class="mt-8 text-textColor">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto possimus
+            nesciunt eos
             voluptatibus omnis
             nihil temporibus reiciendis! Eos, neque necessitatibus.</p>
           <div class="flex gap-4 mt-6">
@@ -308,6 +317,152 @@
       </div>
     </div>
   </section>
+
+  <section
+    class="berita mt-28 mb-16 pt-10 pb-8 lg:pt-28 rounded-t-3xl bg-transparentBg lg:rounded-custom lg:bg-gradient-to-t from-bgColor to-transparentBg">
+    <div class="flex flex-col justify-center items-center px-6">
+      <p class="text-primary lg:text-xl">News Update</p>
+      <h2 class="text-3xl text-center font-bold mt-2 text-black lg:text-6xl">Berita Seputar Aktivitas dan Kegiatan
+        Keseharian</h2>
+      <p class="text-sm mt-3 text-slate-700 lg:text-lg">SMP Negeri 1 Suwawa</p>
+    </div>
+
+    <div class="px-3 py-5 flex flex-col gap-7 md:pl-12 lg:pl-0 lg:py-12 lg:flex-row lg:flex-wrap lg:justify-center">
+      <div class="flex lg:flex-col lg:w-72 lg:shadow-2xl">
+        <img class="max-w-36 max-h-max rounded-lg md:max-w-64 lg:rounded-b-none lg:max-w-full"
+          src="<?= base_url() . 'assets/img/smp1.jpg' ?>" alt="Avatar" />
+        <div class="pl-3 md:w-2/5 lg:p-3 lg:w-full lg:mt-4">
+          <p class="text-xs text-slate-800 lg:text-textColor lg:text-sm">Oktober 18, 2024</p>
+          <h2
+            class="hover:text-primary ease-in-out duration-300 cursor-pointer text-xl font-semibold lg:text-lg lg:mt-2">
+            Upacara HUT Pramuka ke-63 di SMP Negeri 1 Suwawa: <span class="inline-block lg:truncate lg:w-full">Mengusung
+              Tema
+              “Pramuka Berjiwa Pancasila Menjaga NKRI”</span></h2>
+        </div>
+      </div>
+
+      <div class="flex lg:flex-col lg:w-72 lg:shadow-2xl">
+        <img class="max-w-36 max-h-max rounded-lg md:max-w-64 lg:rounded-b-none lg:max-w-full"
+          src="<?= base_url() . 'assets/img/smp1.jpg' ?>" alt="Avatar" />
+        <div class="pl-3 md:w-2/5 lg:p-3 lg:w-full lg:mt-4">
+          <p class="text-xs text-slate-800 lg:text-textColor lg:text-sm">Oktober 18, 2024</p>
+          <h2
+            class="hover:text-primary ease-in-out duration-300 cursor-pointer text-xl font-semibold lg:text-lg lg:mt-2 lg:truncate lg:w-full">
+            Upacara HUT RI ke-79 <span class="inline-block lg:truncate lg:w-full">SMP NEGERI 1 Suwawa</span></h2>
+        </div>
+      </div>
+
+      <div class="flex lg:flex-col lg:w-72 lg:shadow-2xl">
+        <img class="max-w-36 max-h-max rounded-lg md:max-w-64 lg:rounded-b-none lg:max-w-full"
+          src="<?= base_url() . 'assets/img/smp1.jpg' ?>" alt="Avatar" />
+        <div class="pl-3 md:w-2/5 lg:p-3 lg:w-full lg:mt-4">
+          <p class="text-xs text-slate-800 lg:text-textColor lg:text-sm">Oktober 18, 2024</p>
+          <h2
+            class="hover:text-primary ease-in-out duration-300 cursor-pointer text-xl font-semibold lg:text-lg lg:mt-2">
+            Upacara HUT Pramuka ke-63 di SMP Negeri 1 Suwawa: <span class="inline-block lg:truncate lg:w-full">Mengusung
+              Tema
+              “Pramuka Berjiwa Pancasila Menjaga NKRI”</span></h2>
+        </div>
+      </div>
+
+      <div class="flex lg:flex-col lg:w-72 lg:shadow-2xl">
+        <img class="max-w-36 max-h-max rounded-lg md:max-w-64 lg:rounded-b-none lg:max-w-full"
+          src="<?= base_url() . 'assets/img/smp1.jpg' ?>" alt="Avatar" />
+        <div class="pl-3 md:w-2/5 lg:p-3 lg:w-full lg:mt-4">
+          <p class="text-xs text-slate-800 lg:text-textColor lg:text-sm">Oktober 18, 2024</p>
+          <h2
+            class="hover:text-primary ease-in-out duration-300 cursor-pointer text-xl font-semibold lg:text-lg lg:mt-2 lg:truncate lg:w-full">
+            Upacara HUT RI ke-79 <span class="inline-block lg:truncate lg:w-full">SMP NEGERI 1 Suwawa</span></h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex justify-center items-center">
+      <a
+        class="mt-4 bg-primary py-3 px-6 rounded-3xl text-bgColor cursor-pointer hover:bg-sky-700 ease-in-out duration-300">Selengkapnya</a>
+    </div>
+
+  </section>
+
+  <footer class="shadow-[0px_-1px_5px_0px_rgba(122,122,122,0.75)]">
+    <div class="px-7 md:border-b md:border-b-lineColor md:flex md:gap-3 md:justify-center md:px-10 lg:py-10">
+      <div class="flex pb-3 pt-5 border-b border-lineColor md:justify-center md:border-b-0 md:w-1/3">
+        <i class="fa-solid fa-location-dot text-3xl text-primary"></i>
+        <div class="pl-3">
+          <p class="font-bold">Lokasi</p>
+          <a href="https://maps.app.goo.gl/oMWBXZZ24c9MxYFs7 ">Jl natsir Mooduto,Desa Suwawa</a>
+        </div>
+      </div>
+
+      <div class="flex pb-3 pt-5 border-b border-lineColor md:justify-center md:border-b-0 md:w-1/3">
+        <i class="fa-solid fa-phone-flip text-3xl text-primary"></i>
+        <div class="pl-3">
+          <p class="font-bold">Telepon</p>
+          <p>085212345678</p>
+        </div>
+      </div>
+
+      <div class="flex pb-3 pt-5 border-b border-lineColor md:justify-center md:border-b-0 md:w-1/3">
+        <i class="fa-solid fa-envelope-open-text text-3xl text-primary"></i>
+        <div class="pl-3">
+          <p class="font-bold">Email</p>
+          <p>smpn1suwawa18@gmail.com</p>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="mt-7 px-3 pb-3 border-b border-lineColor md:flex md:justify-between md:items-center md:px-7 lg:justify-around lg:px-20 lg:border-b-0">
+      <img src="<?= base_url() . 'assets/img/logo.png' ?>" alt="">
+      <div>
+        <p class="mt-7">Bergabung Bersama Kami</p>
+        <a href="">
+          <button
+            class="mt-4 mb-7 bg-primary py-2 px-4 rounded-md text-bgColor cursor-pointer hover:bg-sky-700 ease-in-out duration-300">Gabung
+            Sekarang</button>
+        </a>
+      </div>
+    </div>
+
+    <div class="mt-7 px-4 md:flex md:justify-between md:gap-4 md:px-7">
+      <div class="md:w-1/3">
+        <p class="font-bold">Tentang Kami</p>
+        <ul class="mt-4">
+          <li class="pt-2"><a class="text-textColor hover:text-primary ease-in-out duration-300" href="">Sambutan kepala sekolah</a></li>
+          <li class="pt-2"><a class="text-textColor hover:text-primary ease-in-out duration-300" href="">Visi dan Misi</a></li>
+          <li class="pt-2"><a class="text-textColor hover:text-primary ease-in-out duration-300" href="">Struktur Organisasi</a></li>
+          <li class="pt-2"><a class="text-textColor hover:text-primary ease-in-out duration-300" href="">Civitas Akademik</a></li>
+        </ul>
+      </div>
+
+      <div class="mt-7 md:mt-0 md:w-1/3">
+        <p class="font-bold">Menu navigasi</p>
+        <ul class="mt-4">
+          <li class="pt-2"><a class="text-textColor hover:text-primary ease-in-out duration-300" href="">Beranda</a></li>
+          <li class="pt-2"><a class="text-textColor hover:text-primary ease-in-out duration-300" href="">Galery</a></li>
+          <li class="pt-2"><a class="text-textColor hover:text-primary ease-in-out duration-300" href="">PPDB</a></li>
+          <li class="pt-2"><a class="text-textColor hover:text-primary ease-in-out duration-300" href="">Kontak Kami</a></li>
+        </ul>
+      </div>
+
+      <div class="mt-7 md:mt-0 md:w-1/3">
+        <p class="font-bold">Lokasi</p>
+        <p class="mt-4 text-textColor"> Jalan Natsir Mooduto, Desa Suwawa, Tingkohubu, Bone Bolango, Kabupaten Bone
+          Bolango, Gorontalo 96113</p>
+      </div>
+    </div>
+
+    <div
+      class="mt-7 py-3 flex flex-col gap-3 justify-center items-center md:flex-row md:justify-between md:px-7 bg-gradient-to-t from-transparentBg to-primary lg:justify-around lg:mt-20 lg:py-10">
+      <p class="text-slate-800 font-medium lg:font-semibold">&copy; Copyright 2024 by SMPN 1 Suwawa</p>
+      <div class="flex justify-center items-center gap-7">
+        <a href="#"><i class="fab fa-facebook text-2xl text-slate-800"></i></a>
+        <a href="#"><i class="fab fa-instagram text-2xl text-slate-800"></i></a>
+        <a href="#"><i class="fab fa-youtube text-2xl text-slate-800"></i></a>
+      </div>
+    </div>
+
+  </footer>
 
   <script src="<?php echo base_url() . 'src/script/script.js' ?>"></script>
 

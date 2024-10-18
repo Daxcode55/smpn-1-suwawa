@@ -9,6 +9,7 @@ module.exports = {
         bgColor: '#fff',
         textColor: '#7a7a7a',
         lineColor: '#e0e2e9',
+        transparentBg : 'rgba(163, 198, 212, 1)'
       },
 
       fontFamily : {
@@ -17,6 +18,10 @@ module.exports = {
 
       boxShadow : {
         custom : '-15px 15px 0px -7px rgba(216,218,222,0.75)'
+      },
+
+      borderRadius : {
+        custom : '100px 100px 0 0'
       }
     },
   },
