@@ -14,4 +14,12 @@ class User extends CI_Controller {
 		$this->load->view('public/page/index');
 		$this->load->view('public/components/footer');
 	}
+
+	function organisasi()
+	 {
+		$this->load->view('public/components/mainHeader');
+		$this->load->view('public/components/navbar');
+		$this->load->view('public/page/strukturOrganisasi');
+		$this->load->view('public/components/footer');
+	}
 }

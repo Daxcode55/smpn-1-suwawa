@@ -11,7 +11,7 @@
       <div class="hidden pl-4 pb-4 flex flex-col lg:absolute lg:pl-0 lg:w-72 lg:block dropdown-link">
         <a href="#">Sambutan Kepala Sekolah</a>
         <a href="#">Visi dan Misi</a>
-        <a href="#">Struktur Organisasi</a>
+        <a href="<?php echo base_url() . 'user/organisasi' ?>">Struktur Organisasi</a>
         <a class="borderNon" href="#">Civitas Akademik</a>
       </div>
     </li>
